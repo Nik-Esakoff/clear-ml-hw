@@ -6,8 +6,12 @@ config = {
     },
     "logistic_regression": {
         "max_iter": 200,
+        "penalty": "l2",
+        "C": 1.0,
+        "solver": "lbfgs",
     },
     "decision_tree": {
         "max_depth": 10,
-    }
+        "criterion": "gini",
+    },
 }

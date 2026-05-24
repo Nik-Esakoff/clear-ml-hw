@@ -46,7 +46,6 @@ MLflow Tracking Server запускался локально:
 mlflow server --host 127.0.0.1 --port 5000
 
 
-```md
 ### Overview
 
 ![LogisticRegression overview](images/mlflow_logreg_overview.png)

@@ -32,3 +32,29 @@
 ### Environment note
 
 Для запуска использовался Python 3.14, поэтому версия `scikit-learn` была обновлена до совместимой версии `scikit-learn>=1.7.2`.
+
+## Homework 2: MLflow
+
+В рамках задания были обучены две модели на датасете Digits:
+
+- `LogisticRegression`
+- `DecisionTreeClassifier`
+
+MLflow Tracking Server запускался локально:
+
+```bash
+mlflow server --host 127.0.0.1 --port 5000
+
+
+```md
+### Overview
+
+![LogisticRegression overview](images/mlflow_logreg_overview.png)
+
+![DecisionTreeClassifier overview](images/mlflow_tree_overview.png)
+
+### Artifacts
+
+![LogisticRegression artifacts](images/mlflow_logreg_artifacts.png)
+
+![DecisionTreeClassifier artifacts](images/mlflow_tree_artifacts.png)

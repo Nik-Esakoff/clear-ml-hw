@@ -46,8 +46,6 @@ MLflow Tracking Server запускался локально:
 mlflow server --host 127.0.0.1 --port 5000
 
 
-Если сделаешь скриншоты artifacts, добавь ещё:
-
 ```md
 ### Overview
 
